@@ -52,10 +52,19 @@
     <Compile Include="loginpage.designer.cs">
       <DependentUpon>loginpage.cs</DependentUpon>
     </Compile>
+    <Compile Include="mal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mal.designer.cs">
+      <DependentUpon>mal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="loginpage.resx">
       <DependentUpon>loginpage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mal.resx">
+      <DependentUpon>mal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -78,6 +87,57 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\83-831664_download-wallpaper-exit-sign-clipart-clipart-emergency.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\653c759f23a58107ca0ff57de215d149.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1593723.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4926305-red-x.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\44299297-about-me.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delivery-man-export-map.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor_holding_patient_hand.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e0873b6ce7a6d0f73526d90cdb85503e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\financials-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help-me_3092548.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\huawei-mate-30-pro-wallpaper-usewallpaper-2-1080x2340.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iStock-949812160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-851960146-1024x1024.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-computer-icons-database-download-grey-wallpaper-5ac575ca785e04.4148235415228901864931.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Magnifying-Glass.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\O2-Refresh1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\omega3s-vitaminb-and-alzheimers-large.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
