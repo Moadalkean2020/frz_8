@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addapatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addapatient.designer.cs">
+      <DependentUpon>addapatient.cs</DependentUpon>
+    </Compile>
     <Compile Include="Insert.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
       <DependentUpon>askingaboutadd.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="addapatient.resx">
+      <DependentUpon>addapatient.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Insert.resx">
       <DependentUpon>Insert.cs</DependentUpon>
     </EmbeddedResource>
