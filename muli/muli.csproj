@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Insert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Insert.designer.cs">
+      <DependentUpon>Insert.cs</DependentUpon>
+    </Compile>
     <Compile Include="loginpage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,12 +65,33 @@
       <DependentUpon>mal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="Properties\about.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\about.designer.cs">
+      <DependentUpon>about.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\askingaboutadd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\askingaboutadd.designer.cs">
+      <DependentUpon>askingaboutadd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Insert.resx">
+      <DependentUpon>Insert.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="loginpage.resx">
       <DependentUpon>loginpage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mal.resx">
       <DependentUpon>mal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\about.resx">
+      <DependentUpon>about.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\askingaboutadd.resx">
+      <DependentUpon>askingaboutadd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
