@@ -77,6 +77,11 @@
     <Compile Include="add_by_cam.designer.cs">
       <DependentUpon>add_by_cam.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataDataSet.Designer.cs">
+      <DependentUpon>DataDataSet.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Delete.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +105,12 @@
     </Compile>
     <Compile Include="How_to_use_this_app_page.designer.cs">
       <DependentUpon>How_to_use_this_app_page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="infomanger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="infomanger.Designer.cs">
+      <DependentUpon>infomanger.cs</DependentUpon>
     </Compile>
     <Compile Include="informationabout sick.cs">
       <SubType>Form</SubType>
@@ -207,6 +218,9 @@
     <EmbeddedResource Include="How_to_use_this_app_page.resx">
       <DependentUpon>How_to_use_this_app_page.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="infomanger.resx">
+      <DependentUpon>infomanger.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="informationabout sick.resx">
       <DependentUpon>informationabout sick.cs</DependentUpon>
     </EmbeddedResource>
@@ -255,6 +269,17 @@
     <EmbeddedResource Include="updatesick.resx">
       <DependentUpon>updatesick.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="DataDataSet.xsc">
+      <DependentUpon>DataDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataDataSet.xss">
+      <DependentUpon>DataDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\DataDataSet.xsc">
       <DependentUpon>DataDataSet.xsd</DependentUpon>
     </None>
