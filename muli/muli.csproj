@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Emgu.CV, Version=2.2.1.1150, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Emgu.CV.dll</HintPath>
+    </Reference>
     <Reference Include="Emgu.CV.DebuggerVisualizers.VS2013">
       <HintPath>..\..\..\..\..\Emgu\emgucv-windesktop 4.1.1.3497\bin\Emgu.CV.DebuggerVisualizers.VS2013.dll</HintPath>
     </Reference>
@@ -66,6 +70,12 @@
     </Compile>
     <Compile Include="addapatient.designer.cs">
       <DependentUpon>addapatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add_by_cam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_by_cam.designer.cs">
+      <DependentUpon>add_by_cam.cs</DependentUpon>
     </Compile>
     <Compile Include="Delete.cs">
       <SubType>Form</SubType>
@@ -134,6 +144,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="addapatient.resx">
       <DependentUpon>addapatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_by_cam.resx">
+      <DependentUpon>add_by_cam.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Delete.resx">
       <DependentUpon>Delete.cs</DependentUpon>
