@@ -83,6 +83,12 @@
     <Compile Include="Delete.designer.cs">
       <DependentUpon>Delete.cs</DependentUpon>
     </Compile>
+    <Compile Include="detect_by_cam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="detect_by_cam.designer.cs">
+      <DependentUpon>detect_by_cam.cs</DependentUpon>
+    </Compile>
     <Compile Include="help.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -150,6 +156,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Delete.resx">
       <DependentUpon>Delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="detect_by_cam.resx">
+      <DependentUpon>detect_by_cam.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="help.resx">
       <DependentUpon>help.cs</DependentUpon>
