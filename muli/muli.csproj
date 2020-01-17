@@ -101,6 +101,12 @@
     <Compile Include="How_to_use_this_app_page.designer.cs">
       <DependentUpon>How_to_use_this_app_page.cs</DependentUpon>
     </Compile>
+    <Compile Include="informationabout sick.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="informationabout sick.designer.cs">
+      <DependentUpon>informationabout sick.cs</DependentUpon>
+    </Compile>
     <Compile Include="Insert.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,6 +137,12 @@
     <Compile Include="manger.designer.cs">
       <DependentUpon>manger.cs</DependentUpon>
     </Compile>
+    <Compile Include="My partner details .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My partner details .designer.cs">
+      <DependentUpon>My partner details .cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\about.cs">
       <SubType>Form</SubType>
@@ -145,6 +157,17 @@
       <DependentUpon>askingaboutadd.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\DataDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search.designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
     <Compile Include="updatesick.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -172,6 +195,9 @@
     <EmbeddedResource Include="How_to_use_this_app_page.resx">
       <DependentUpon>How_to_use_this_app_page.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="informationabout sick.resx">
+      <DependentUpon>informationabout sick.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Insert.resx">
       <DependentUpon>Insert.cs</DependentUpon>
     </EmbeddedResource>
@@ -186,6 +212,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="manger.resx">
       <DependentUpon>manger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My partner details .resx">
+      <DependentUpon>My partner details .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\about.resx">
       <DependentUpon>about.cs</DependentUpon>
@@ -202,9 +231,23 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="updatesick.resx">
       <DependentUpon>updatesick.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Properties\DataDataSet.xsc">
+      <DependentUpon>DataDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\DataDataSet.xss">
+      <DependentUpon>DataDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
