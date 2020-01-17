@@ -145,6 +145,12 @@
       <DependentUpon>askingaboutadd.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search.designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
     <Compile Include="updatesick.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -202,6 +208,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="updatesick.resx">
       <DependentUpon>updatesick.cs</DependentUpon>
     </EmbeddedResource>
