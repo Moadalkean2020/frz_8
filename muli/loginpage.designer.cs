@@ -108,6 +108,7 @@
             this.label3.Size = new System.Drawing.Size(60, 25);
             this.label3.TabIndex = 6;
             this.label3.Text = "כניסה";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 

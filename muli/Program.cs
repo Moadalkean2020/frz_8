@@ -17,7 +17,7 @@ namespace muli
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new add_by_cam());
+            Application.Run(new Form1());
         }
     }
 }

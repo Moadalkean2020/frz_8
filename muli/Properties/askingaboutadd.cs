@@ -19,9 +19,9 @@ namespace MultiFaceRec
 
         private void button2_Click(object sender, EventArgs e)
         {
-            FrmPrincipal add = new FrmPrincipal();
+            /*FrmPrincipal add = new FrmPrincipal();
             this.Hide();
-            add.Show();
+            add.Show();*/
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -190,8 +190,8 @@ namespace MultiFaceRec
             
             if (check == true)
             {
-                askingitem che = new askingitem();
-                che.Show();
+                //askingitem che = new askingitem();
+                //che.Show();
             }
             else
             {

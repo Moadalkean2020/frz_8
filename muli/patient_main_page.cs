@@ -22,8 +22,8 @@ namespace MultiFaceRec
 
         private void button1_Click(object sender, EventArgs e)
         {
-            askingaboutdet deta = new askingaboutdet();
-            deta.Show();
+            //askingaboutdet deta = new askingaboutdet();
+            //deta.Show();
             
 
         }
@@ -61,8 +61,8 @@ namespace MultiFaceRec
 
         private void button2_Click(object sender, EventArgs e)
         {
-            patierndet patdet = new patierndet();
-            patdet.Show();
+            //patierndet patdet = new patierndet();
+            //patdet.Show();
             
         }
     }
