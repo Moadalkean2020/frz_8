@@ -46,6 +46,8 @@
     <Reference Include="Emgu.CV.UI">
       <HintPath>..\..\..\..\..\Emgu\emgucv-windesktop 4.1.1.3497\bin\Emgu.CV.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Emgu.CV.World, Version=4.1.1.3497, Culture=neutral, PublicKeyToken=7281126722ab4438" />
+    <Reference Include="Emgu.Util, Version=2.2.1.1150, Culture=neutral, PublicKeyToken=7281126722ab4438" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -71,11 +73,17 @@
     <Compile Include="addapatient.designer.cs">
       <DependentUpon>addapatient.cs</DependentUpon>
     </Compile>
-    <Compile Include="add_by_cam.cs">
+    <Compile Include="askingaboutadd.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="add_by_cam.designer.cs">
-      <DependentUpon>add_by_cam.cs</DependentUpon>
+    <Compile Include="askingaboutadd.designer.cs">
+      <DependentUpon>askingaboutadd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="askingitem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="askingitem.designer.cs">
+      <DependentUpon>askingitem.cs</DependentUpon>
     </Compile>
     <Compile Include="DataDataSet.Designer.cs">
       <DependentUpon>DataDataSet.xsd</DependentUpon>
@@ -118,6 +126,18 @@
     <Compile Include="informationabout sick.designer.cs">
       <DependentUpon>informationabout sick.cs</DependentUpon>
     </Compile>
+    <Compile Include="infPAM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="infPAM.designer.cs">
+      <DependentUpon>infPAM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="infPM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="infPM.designer.cs">
+      <DependentUpon>infPM.cs</DependentUpon>
+    </Compile>
     <Compile Include="Insert.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,12 +149,6 @@
     </Compile>
     <Compile Include="loginpage.designer.cs">
       <DependentUpon>loginpage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MainForm.designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="mal.cs">
       <SubType>Form</SubType>
@@ -153,6 +167,12 @@
     </Compile>
     <Compile Include="My partner details .designer.cs">
       <DependentUpon>My partner details .cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyData.designer.cs">
+      <DependentUpon>MyData.cs</DependentUpon>
     </Compile>
     <Compile Include="patient_main_page.cs">
       <SubType>Form</SubType>
@@ -179,12 +199,20 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Properties\Resources.cs" />
     <Compile Include="Search.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Search.designer.cs">
       <DependentUpon>Search.cs</DependentUpon>
     </Compile>
+    <Compile Include="ShowMyData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowMyData.designer.cs">
+      <DependentUpon>ShowMyData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Singleton.cs" />
     <Compile Include="Update.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -197,14 +225,29 @@
     <Compile Include="updatesick.designer.cs">
       <DependentUpon>updatesick.cs</DependentUpon>
     </Compile>
+    <Compile Include="viewreports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewreports.designer.cs">
+      <DependentUpon>viewreports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewreportsmanger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewreportsmanger.designer.cs">
+      <DependentUpon>viewreportsmanger.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="about.resx">
       <DependentUpon>about.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="addapatient.resx">
       <DependentUpon>addapatient.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="add_by_cam.resx">
-      <DependentUpon>add_by_cam.cs</DependentUpon>
+    <EmbeddedResource Include="askingaboutadd.resx">
+      <DependentUpon>askingaboutadd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="askingitem.resx">
+      <DependentUpon>askingitem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Delete.resx">
       <DependentUpon>Delete.cs</DependentUpon>
@@ -224,14 +267,17 @@
     <EmbeddedResource Include="informationabout sick.resx">
       <DependentUpon>informationabout sick.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="infPAM.resx">
+      <DependentUpon>infPAM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="infPM.resx">
+      <DependentUpon>infPM.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Insert.resx">
       <DependentUpon>Insert.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="loginpage.resx">
       <DependentUpon>loginpage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mal.resx">
       <DependentUpon>mal.cs</DependentUpon>
@@ -241,6 +287,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My partner details .resx">
       <DependentUpon>My partner details .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyData.resx">
+      <DependentUpon>MyData.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="patient_main_page.resx">
       <DependentUpon>patient_main_page.cs</DependentUpon>
@@ -263,11 +312,20 @@
     <EmbeddedResource Include="Search.resx">
       <DependentUpon>Search.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ShowMyData.resx">
+      <DependentUpon>ShowMyData.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Update.resx">
       <DependentUpon>Update.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="updatesick.resx">
       <DependentUpon>updatesick.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewreports.resx">
+      <DependentUpon>viewreports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewreportsmanger.resx">
+      <DependentUpon>viewreportsmanger.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="DataDataSet.xsc">
       <DependentUpon>DataDataSet.xsd</DependentUpon>

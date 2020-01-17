@@ -180,7 +180,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.BackgroundImage = global::muli.Properties.Resources.e0873b6ce7a6d0f73526d90cdb85503e;
+           // this.BackgroundImage = global::muli.Properties.Resources.e0873b6ce7a6d0f73526d90cdb85503e;
             this.ClientSize = new System.Drawing.Size(645, 539);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.label5);

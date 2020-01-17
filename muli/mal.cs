@@ -35,7 +35,7 @@ namespace MultiFaceRec
         private void button3_Click(object sender, EventArgs e)
         {
            
-            viewreports ss1 = new viewreports();
+           viewreports ss1 = new viewreports();
             ss1.Show();
         }
 
@@ -47,9 +47,10 @@ namespace MultiFaceRec
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+            /*
             FrmPrincipal newfrm = new FrmPrincipal();
             newfrm.Show();
-            
+            */
         }
 
         private void mal_Load(object sender, EventArgs e)

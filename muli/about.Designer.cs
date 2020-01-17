@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(about));
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -41,9 +42,21 @@
             this.label1.Location = new System.Drawing.Point(25, 24);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label1.Size = new System.Drawing.Size(903, 484);
+            this.label1.Size = new System.Drawing.Size(0, 44);
             this.label1.TabIndex = 1;
-            this.label1.Text = resources.GetString("label1.Text");
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.Fuchsia;
+            this.label2.Location = new System.Drawing.Point(25, 9);
+            this.label2.Name = "label2";
+            this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label2.Size = new System.Drawing.Size(903, 528);
+            this.label2.TabIndex = 2;
+            this.label2.Text = resources.GetString("label2.Text");
             // 
             // about
             // 
@@ -51,6 +64,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::muli.Properties.Resources.omega3s_vitaminb_and_alzheimers_large;
             this.ClientSize = new System.Drawing.Size(927, 517);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "about";
             this.Text = "about";
@@ -62,5 +76,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

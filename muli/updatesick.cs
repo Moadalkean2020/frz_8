@@ -17,7 +17,7 @@ namespace MultiFaceRec
         SqlConnection connection = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = C:\Users\amara\Desktop\master\Data.mdf; Integrated Security = True");
 
         SqlCommand cmd = new SqlCommand();
-        private SqlCommand cmd2;
+        //private SqlCommand cmd2;
 
         public updatesick()
         {
