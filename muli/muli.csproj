@@ -143,6 +143,12 @@
     <Compile Include="My partner details .designer.cs">
       <DependentUpon>My partner details .cs</DependentUpon>
     </Compile>
+    <Compile Include="patient_main_page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="patient_main_page.designer.cs">
+      <DependentUpon>patient_main_page.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\about.cs">
       <SubType>Form</SubType>
@@ -221,6 +227,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My partner details .resx">
       <DependentUpon>My partner details .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="patient_main_page.resx">
+      <DependentUpon>patient_main_page.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\about.resx">
       <DependentUpon>about.cs</DependentUpon>
