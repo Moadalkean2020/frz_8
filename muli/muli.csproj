@@ -33,6 +33,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Emgu.CV, Version=2.2.1.1150, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Emgu.CV.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.DebuggerVisualizers.VS2013">
+      <HintPath>..\..\..\..\..\Emgu\emgucv-windesktop 4.1.1.3497\bin\Emgu.CV.DebuggerVisualizers.VS2013.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.DebuggerVisualizers.VS2017">
+      <HintPath>..\..\..\..\..\Emgu\emgucv-windesktop 4.1.1.3497\bin\Emgu.CV.DebuggerVisualizers.VS2017.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI">
+      <HintPath>..\..\..\..\..\Emgu\emgucv-windesktop 4.1.1.3497\bin\Emgu.CV.UI.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -58,11 +71,23 @@
     <Compile Include="addapatient.designer.cs">
       <DependentUpon>addapatient.cs</DependentUpon>
     </Compile>
+    <Compile Include="add_by_cam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_by_cam.designer.cs">
+      <DependentUpon>add_by_cam.cs</DependentUpon>
+    </Compile>
     <Compile Include="Delete.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Delete.designer.cs">
       <DependentUpon>Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="detect_by_cam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="detect_by_cam.designer.cs">
+      <DependentUpon>detect_by_cam.cs</DependentUpon>
     </Compile>
     <Compile Include="help.cs">
       <SubType>Form</SubType>
@@ -88,11 +113,23 @@
     <Compile Include="loginpage.designer.cs">
       <DependentUpon>loginpage.cs</DependentUpon>
     </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="mal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="mal.designer.cs">
       <DependentUpon>mal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="manger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="manger.designer.cs">
+      <DependentUpon>manger.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\about.cs">
@@ -120,8 +157,14 @@
     <EmbeddedResource Include="addapatient.resx">
       <DependentUpon>addapatient.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="add_by_cam.resx">
+      <DependentUpon>add_by_cam.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Delete.resx">
       <DependentUpon>Delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="detect_by_cam.resx">
+      <DependentUpon>detect_by_cam.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="help.resx">
       <DependentUpon>help.cs</DependentUpon>
@@ -135,8 +178,14 @@
     <EmbeddedResource Include="loginpage.resx">
       <DependentUpon>loginpage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="mal.resx">
       <DependentUpon>mal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="manger.resx">
+      <DependentUpon>manger.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\about.resx">
       <DependentUpon>about.cs</DependentUpon>

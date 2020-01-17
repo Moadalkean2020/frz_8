@@ -1,0 +1,17 @@
+C:\Users\amara\Desktop\FINALL\muli\obj\Debug\muli.csprojAssemblyReference.cache
+C:\Users\amara\Desktop\FINALL\muli\obj\Debug\muli.exe.config
+C:\Users\amara\Desktop\FINALL\muli\obj\Debug\muli.about.resources
+C:\Users\amara\Desktop\FINALL\muli\obj\Debug\MultiFaceRec.addapatient.resources
+C:\Users\amara\Desktop\FINALL\muli\obj\Debug\MultiFaceRec.add_by_cam.resources
+C:\Users\amara\Desktop\FINALL\muli\obj\Debug\mlava.Delete.resources
+C:\Users\amara\Desktop\FINALL\muli\obj\Debug\MultiFaceRec.help.resources
+C:\Users\amara\Desktop\FINALL\muli\obj\Debug\MultiFaceRec.How_to_use_this_app_page.resources
+C:\Users\amara\Desktop\FINALL\muli\obj\Debug\mlava.Insert.resources
+C:\Users\amara\Desktop\FINALL\muli\obj\Debug\MultiFaceRec.Form1.resources
+C:\Users\amara\Desktop\FINALL\muli\obj\Debug\MultiFaceRec.FrmPrincipal.resources
+C:\Users\amara\Desktop\FINALL\muli\obj\Debug\MultiFaceRec.mal.resources
+C:\Users\amara\Desktop\FINALL\muli\obj\Debug\MultiFaceRec.about.resources
+C:\Users\amara\Desktop\FINALL\muli\obj\Debug\MultiFaceRec.askingaboutadd.resources
+C:\Users\amara\Desktop\FINALL\muli\obj\Debug\muli.Properties.Resources.resources
+C:\Users\amara\Desktop\FINALL\muli\obj\Debug\MultiFaceRec.updatesick.resources
+C:\Users\amara\Desktop\FINALL\muli\obj\Debug\muli.csproj.GenerateResource.cache
